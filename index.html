@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title> Calculadora </title>
+</head>
+<body>  
+    <div class="container">
+
+        <h1 class="page-title">
+        Calculadora da nota do trabalho</h1>
+
+        <p class="page-subtitle">
+        Descubra qual a nota do trabalho de pensamento computacional
+        </p>
+        
+        <p>
+          <label for="moeda">Movimentação de Personagem</label><br>
+          <input type="number" id="primeiraNota" size="2" /><br>
+        </p>
+        <p>
+          <label for="moeda">Troca de cenário</label><br>
+          <input type="number" id="segundaNota" size="2" /><br>
+        </p>
+        <p>
+          <label for="moeda">Perguntas V e F</label><br>
+          <input type="number" id="terceiraNota" size="2" /><br>
+        </p>
+        <p>
+          <label for="moeda">Ortografia</label><br>
+          <input type="number" id="quartaNota" size="2" /><br>
+        </p>
+        <p>
+          <label for="moeda">Uso do Meus blocos</label><br>
+          <input type="number" id="quintaNota" size="2" /><br>
+        </p>
+        <p>
+          <label for="moeda">Título, Notas e créditos</label><br>
+          <input type="number" id="sextaNota" size="2" /><br>
+
+          <button type="submit" onclick="Calcular()">Calcular</button>
+        </p>
+        
+        <h2 id="mediaFinal"></h2>
+
+        <h3 id="resultado"></h3>
+     </div>
+
+  </body>
+</html>
+
+<script  src="./script.js"></script>
+
+</html>

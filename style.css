@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 500px;
+  background-image: url('calculadora-verde.jpg');
+  background-color: #91c2d5;
+  background-size: 60vh;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+p {
+  margin-block: 1em;
+}
+
+input {
+  margin-left: 90px;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  margin-left: 90px;
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  margin-left: 90px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#mediaFinal {
+  margin-left: 120px;
+}
